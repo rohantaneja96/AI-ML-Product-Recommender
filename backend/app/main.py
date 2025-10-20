@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routers import recommend,analytics
+import os
+import uvicorn
 
 app = FastAPI(title="AI Product Recommendation API")
 
