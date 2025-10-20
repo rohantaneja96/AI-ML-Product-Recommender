@@ -1,11 +1,13 @@
 fastapi
-uvicorn[standard]
-gunicorn
+uvicorn
 pandas
 numpy
+gunicorn
 scikit-learn
 joblib
-sentence-transformers
 faiss-cpu
+sentence-transformers
 python-dotenv
-langchain_google_genai
+langchain
+langchain-google-genai
+google-generativeai
