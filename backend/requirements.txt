@@ -1,4 +1,4 @@
-langchain
+langchain>=0.1.0
 langchain-google-genai
 python-dotenv
 faiss-cpu
